@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/diogocezar/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/diogocezar/test-merge/package.json: Unexpected string in JSON at position 166
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "test-merge",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "canvas": "^1.6.9",
+      "merge-images": "^1.1.0"
+    }"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

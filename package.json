@@ -1,0 +1,10 @@
+{
+  "name": "test-merge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.5.0",
+    "merge-images": "^1.1.0"
+  }
+}
